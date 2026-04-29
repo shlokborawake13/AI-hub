@@ -1,0 +1,68 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  // frontend folder
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-primary-fixed-variant": "#264191",
+        "primary-fixed-dim": "#b6c4ff",
+        "surface-tint": "#4059aa",
+        "on-background": "#191c1d",
+        "primary": "#00236f",
+        "primary-container": "#1e3a8a",
+        "surface-container-high": "#e7e8e9",
+        "inverse-on-surface": "#f0f1f2",
+        "inverse-primary": "#b6c4ff",
+        "surface-container-lowest": "#ffffff",
+        "on-surface-variant": "#444651",
+        "on-error": "#ffffff",
+        "on-tertiary-container": "#d9a300",
+        "error-container": "#ffdad6",
+        "error": "#ba1a1a",
+        "on-primary": "#ffffff",
+        "secondary-fixed-dim": "#bdc5eb",
+        "secondary-fixed": "#dce1ff",
+        "on-tertiary": "#ffffff",
+        "on-primary-container": "#90a8ff",
+        "tertiary": "#382700",
+        "surface-dim": "#d9dadb",
+        "outline-variant": "#c5c5d3",
+        "primary-fixed": "#dce1ff",
+        "surface": "#f8f9fa",
+        "on-secondary-fixed-variant": "#3d4565",
+        "on-error-container": "#93000a",
+        "surface-container-low": "#f3f4f5",
+        "inverse-surface": "#2e3132",
+        "secondary-container": "#d0d8ff",
+        "tertiary-fixed-dim": "#f9bd22",
+        "on-tertiary-fixed": "#261a00",
+        "on-secondary": "#ffffff",
+        "secondary": "#555d7e",
+        "surface-container-highest": "#e1e3e4",
+        "on-tertiary-fixed-variant": "#5c4300",
+        "tertiary-container": "#533c00",
+        "on-surface": "#191c1d",
+        "outline": "#757682",
+        "on-primary-fixed": "#00164e",
+        "tertiary-fixed": "#ffdf9f",
+        "background": "#f8f9fa",
+        "on-secondary-fixed": "#111a37",
+        "surface-variant": "#e1e3e4",
+        "on-secondary-container": "#555e7f",
+        "surface-container": "#edeeef",
+        "surface-bright": "#f8f9fa"
+      },
+      fontFamily: {
+        headline: ["Inter", "sans-serif"],
+        body: ["Inter", "sans-serif"],
+        label: ["Inter", "sans-serif"]
+      }
+    },
+  },
+  plugins: [],
+}
